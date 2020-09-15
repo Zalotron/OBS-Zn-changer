@@ -1,0 +1,382 @@
+{
+	"sources": [
+		{
+			"balance": 0.5,
+			"deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "filters": [
+                {
+                    "balance": 0.5,
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "shader_filter",
+                    "mixers": 0,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "User-defined shader",
+                    "prev_ver": 419430408,
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                    	"Angle_Steps": 15,
+                        "Radius_Steps": 15,
+                        "ampFactor": 3.0,
+                        "from_file": true,
+                        "override_entire_effect": false,
+                        "shader_file_name": "C:/Program Files/obs-studio/data/obs-plugins/obs-shaderfilter/examples/bloom.shader"
+                    },
+                    "sync": 0,
+                    "versioned_id": "shader_filter",
+                    "volume": 1.0
+                }
+            ],
+            "flags": 0,
+            "hotkeys": {
+                "MediaSource.Pause": [],
+                "MediaSource.Play": [],
+                "MediaSource.Restart": [],
+                "MediaSource.Stop": [],
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "ffmpeg_source",
+            "mixers": 192,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Scene reveal",
+            "prev_ver": 419430408,
+            "private_settings": {
+                "mixer_hidden": true
+            },
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "clear_on_media_end": false,
+                "local_file": "E:/Zalo/Trabajos/Zalo multimedia/Stream/Zalotronic Tools/Scene changer\\Scene reveal fire.mov"
+            },
+            "sync": 0,
+            "versioned_id": "ffmpeg_source",
+            "volume": 0.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.Current scene": [],
+                "libobs.hide_scene_item.Previous scene": [],
+                "libobs.hide_scene_item.Scene mask": [],
+                "libobs.hide_scene_item.Scene reveal": [],
+                "libobs.show_scene_item.Current scene": [],
+                "libobs.show_scene_item.Previous scene": [],
+                "libobs.show_scene_item.Scene mask": [],
+                "libobs.show_scene_item.Scene reveal": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Scene changer",
+            "prev_ver": 419430408,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": false,
+                "id_counter": 6,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 4,
+                        "locked": true,
+                        "name": "Scene mask",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 1,
+                        "locked": true,
+                        "name": "Previous scene",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 3,
+                        "locked": true,
+                        "name": "Current scene",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 6,
+                        "locked": true,
+                        "name": "Scene reveal",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": false
+                    }
+                ]
+            },
+            "sync": 0,
+            "versioned_id": "scene",
+            "volume": 1.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "obs-stream-effects-source-mirror",
+            "mixers": 192,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Previous scene",
+            "prev_ver": 419430408,
+            "private_settings": {
+                "mixer_hidden": true
+            },
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "Source.Mirror.Source": "IRL Normal",
+                "Source.Mirror.Source.Size": "1920x1080"
+            },
+            "sync": 0,
+            "versioned_id": "obs-stream-effects-source-mirror",
+            "volume": 0.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "filters": [
+                {
+                    "balance": 0.5,
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "obs-stream-effects-filter-dynamic-mask",
+                    "mixers": 0,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Dynamic Mask",
+                    "prev_ver": 419430408,
+                    "private_settings": {},
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "Filter.DynamicMask.Channel": 3,
+                        "Filter.DynamicMask.Channel.Input.Channel.Alpha.Channel.Alpha": 0.0,
+                        "Filter.DynamicMask.Channel.Input.Channel.Alpha.Channel.Blue": 1.0,
+                        "Filter.DynamicMask.Channel.Input.Channel.Alpha.Channel.Green": 1.0,
+                        "Filter.DynamicMask.Channel.Input.Channel.Alpha.Channel.Red": 1.0,
+                        "Filter.DynamicMask.Channel.Input.Channel.Blue.Channel.Alpha": 0.0,
+                        "Filter.DynamicMask.Channel.Input.Channel.Blue.Channel.Blue": 0.0,
+                        "Filter.DynamicMask.Channel.Input.Channel.Blue.Channel.Green": 0.0,
+                        "Filter.DynamicMask.Channel.Input.Channel.Blue.Channel.Red": 0.0,
+                        "Filter.DynamicMask.Channel.Input.Channel.Green.Channel.Alpha": 0.0,
+                        "Filter.DynamicMask.Channel.Input.Channel.Green.Channel.Blue": 0.0,
+                        "Filter.DynamicMask.Channel.Input.Channel.Green.Channel.Green": 0.0,
+                        "Filter.DynamicMask.Channel.Input.Channel.Green.Channel.Red": 0.0,
+                        "Filter.DynamicMask.Channel.Input.Channel.Red.Channel.Alpha": 0.0,
+                        "Filter.DynamicMask.Channel.Input.Channel.Red.Channel.Blue": 0.0,
+                        "Filter.DynamicMask.Channel.Input.Channel.Red.Channel.Green": 0.0,
+                        "Filter.DynamicMask.Channel.Input.Channel.Red.Channel.Red": 0.0,
+                        "Filter.DynamicMask.Channel.Multiplier.Channel.Alpha": 1.0,
+                        "Filter.DynamicMask.Channel.Multiplier.Channel.Blue": 1.0,
+                        "Filter.DynamicMask.Channel.Multiplier.Channel.Green": 1.0,
+                        "Filter.DynamicMask.Channel.Multiplier.Channel.Red": 1.0,
+                        "Filter.DynamicMask.Channel.Value.Channel.Alpha": 0.0,
+                        "Filter.DynamicMask.Channel.Value.Channel.Blue": 1.0,
+                        "Filter.DynamicMask.Channel.Value.Channel.Green": 1.0,
+                        "Filter.DynamicMask.Channel.Value.Channel.Red": 1.0,
+                        "Filter.DynamicMask.Input": "Scene mask"
+                    },
+                    "sync": 0,
+                    "versioned_id": "obs-stream-effects-filter-dynamic-mask",
+                    "volume": 1.0
+                }
+            ],
+            "flags": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "obs-stream-effects-source-mirror",
+            "mixers": 192,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Current scene",
+            "prev_ver": 419430408,
+            "private_settings": {
+                "mixer_hidden": true
+            },
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "Source.Mirror.Source": "Offline",
+                "Source.Mirror.Source.Size": "1920x1080"
+            },
+            "sync": 0,
+            "versioned_id": "obs-stream-effects-source-mirror",
+            "volume": 0.0
+        },
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "MediaSource.Pause": [],
+                "MediaSource.Play": [],
+                "MediaSource.Restart": [],
+                "MediaSource.Stop": [],
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "ffmpeg_source",
+            "mixers": 192,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Scene mask",
+            "prev_ver": 419430408,
+            "private_settings": {
+                "mixer_hidden": true
+            },
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "clear_on_media_end": false,
+                "local_file": "E:/Zalo/Trabajos/Zalo multimedia/Stream/Zalotronic Tools/Scene changer\\Scene reveal.mp4"
+            },
+            "sync": 0,
+            "versioned_id": "ffmpeg_source",
+            "volume": 0.0
+        }
+	]
+}
