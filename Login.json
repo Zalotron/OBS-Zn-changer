@@ -1,7 +1,7 @@
 {
     "host": "localhost",
     "port": "4444",
-    "password": "getthe22",
-    "mask": "Scene reveal.mp4",
-    "video": "Scene reveal fire.mov"
+    "password": "",
+    "mask": "",
+    "video": ""
 }
